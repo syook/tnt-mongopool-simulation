@@ -5,5 +5,5 @@ Person.find({}).exec((err,res) => {
   if(err){
     return console.log(err);
   }
-  console.log("LOG FROM THREAD",res)
+  console.log("FROM FIRST THREAD",res)
 });

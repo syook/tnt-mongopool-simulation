@@ -51,4 +51,4 @@ const aggregateToDb = () => {
   queue.create('aggregate',{title: 'aggregate'}).on('failed',() => console.log('Error')).removeOnComplete(true).save();
 };
 
-setInterval(aggregateToDb,100);
+setInterval(aggregateToDb,500);
